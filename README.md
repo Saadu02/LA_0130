@@ -20,13 +20,15 @@ Normalerweise spielen wir oft das Spiel "Flow Free". Wir haben uns gedacht, dass
 
 | US-№ | Verbindlichkeit | Beschreibung                       |
 | ---- | --------------- | ---------------------------------- |
-| 1    | Funktionalität | Als Benutzer möchte ich, dass das Programm automatisch ein Spiel erstellt |
-| 2    | Funktionalität | Als Benutzer möchte ich, dass die Spiele immer wieder neu sind, damit das spielen nicht langweilig wird |
-| 3    | Funktionalität | Als Benutzer möchte ich Linien verbinden können, um das Spiel zu lösen |
-| 4    | Funktionalität | Als Benutzer möchte ich, dass die Linien unterschiedliche Farbe haben, damit ich weiss, welche Punkte ich verbinden muss |
-| 5    | Funktionalität | Als Benutzer möchte ich, dass es einen Knopf gibt, um das Spiel neustarten zu können |
-| 6    | Qualität | Als Benutzer möchte ich, dass es genau eine Möglichkeit gibt das Spiel zu lösen |
-| 6    | Qualität | Als Benutzer möchte ich, dass ich die Bildschirmgrösse anpassen kann, damit ich es in einem kleineren oder grösseren Fenster spielen kann |
+| 1  | Funktionalität | Als Benutzer möchte ich, dass das Programm automatisch ein Spiel erstellt |
+| 2  | Funktionalität | Als Benutzer möchte ich, dass die Spiele immer wieder neu sind, damit das spielen nicht langweilig wird |
+| 3  | Funktionalität | Als Benutzer möchte ich Linien verbinden können, um das Spiel zu lösen |
+| 4  | Funktionalität | Als Benutzer möchte ich, dass die Linien unterschiedliche Farbe haben, damit ich weiss, welche Punkte ich verbinden muss |
+| 5  | Funktionalität | Als Benutzer möchte ich, dass es einen Knopf gibt, um das Spiel neustarten zu können |
+| 6  | Qualität | Als Benutzer möchte ich, dass es genau eine Möglichkeit gibt das Spiel zu lösen |
+| 7  | Qualität | Als Benutzer möchte ich, dass ich die Bildschirmgrösse anpassen kann, damit ich es in einem kleineren oder grösseren Fenster spielen kann |
+| 8  | Qualität | Als Benutzer möchte ich, dass das Design farbig aussieht, damit es nicht langweilig wirkt. |
+
 
 ### 1.3 Testfälle
 
@@ -44,23 +46,16 @@ Normalerweise spielen wir oft das Spiel "Flow Free". Wir haben uns gedacht, dass
 
 | AP-№ | Frist | Zuständig | Beschreibung | geplante Zeit |
 | ---- | ----- | --------- | ------------ | ------------- |
-| 1.A  |       |           |              |               |
+| 1.C  | 17.01.2025 | Nicola | Linien verbinden | 180min |
+| 1.A  | 17.01.2025 | Alle | automatisch das Spiel erstellen | 180min |
+| 1.B  | 24.01.2025 | Sathana | neue verbindungsmöglichkeiten | 180min |
+| 1.D  | 24.01.2025 | Nicola | Unterschiedliche Farben für Linien | 30min |
+| 1.E  | 14.02.2025 | Sathana | Neustart-Knopf | 180min |
+| 1.F  | 21.02.2025 | Nicola | eine chance zu spielen | 180min |
+| 1.G  | 28.02.2025 | Sathana | Bildschirmgrösse anpassung | 50min |
+| 1.H  | 28.02.2025 | Alle  | Design | 40min |
 | ...  |       |           |              |               |
-| ...  |       |           |              |               |
-| ...  |       |           |              |               |
-| ...  |       |           |              |               |
-| ...  |       |           |              |               |
-| ...  |       |           |              |               |
-| ...  |       |           |              |               |
-| ...  |       |           |              |               |
-| ...  |       |           |              |               |
-| ...  |       |           |              |               |
-| ...  |       |           |              |               |
-| ...  |       |           |              |               |
-| ...  |       |           |              |               |
-| ...  |       |           |              |               |
-| ...  |       |           |              |               |
-| ...  | 07.03.2025 |           |              |               |
+
 
 ## 3 Entscheiden
 
@@ -80,7 +75,14 @@ Normalerweise spielen wir oft das Spiel "Flow Free". Wir haben uns gedacht, dass
 | TC-№ | Datum | Resultat | Tester |
 | ---- | ----- | -------- | ------ |
 | 1.1  |       |          |        |
-| ...  |       |          |        |
+| ...  | 07.03.2025 | OK | Sathana Suganthasri |
+| ...  | 07.03.2025 | OK | Sathana Suganthasri |
+| ...  | 07.03.2025 | OK | Nicola Karrer |
+| ...  | 07.03.2025 | OK | Nicola Karrer|
+| ...  | 07.03.2025 | OK |        |
+| ...  | 07.03.2025 | OK |        |
+| ...  | 07.03.2025 |          |        |
+| ...  | 07.03.2025 |          |        |
+| ...  | 07.03.2025 |          |        |
 
 ✍️ Vergessen Sie nicht, ein Fazit hinzuzufügen, welches das Test-Ergebnis einordnet.
-

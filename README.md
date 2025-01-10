@@ -50,7 +50,7 @@ Normalerweise spielen wir oft das Spiel "Punkte verbinden". Wir haben uns gedach
 
 ✍️Fügen Sie hier ein Use Case-Diagramm mit mindestens 10 Anwendungsfällen ein; und einen PAP.
 
-<img src="https://github.com/user-attachments/assets/6f87a13f-9aaa-407a-abb6-b49fe6eabc81" alt="Bild" width="500" />
+<img src="https://github.com/user-attachments/assets/6f87a13f-9aaa-407a-abb6-b49fe6eabc81" alt="Bild" width="600" />
 
 
 

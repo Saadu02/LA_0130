@@ -73,10 +73,6 @@ Normalerweise spielen wir oft das Spiel "Punkte verbinden". Wir haben uns gedach
 | ...  |       |           |              |               |
 | ...  |       |           |              |               |
 | ...  |       |           |              |               |
-| ...  |       |           |              |               |
-
-| ...  |       |           |              |               |
-| ...  |       |           |              |               |
 | ...  | 07.03.2025 |           |              |               |
 
 Total: 

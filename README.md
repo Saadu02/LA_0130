@@ -25,7 +25,15 @@ Normalerweise spielen wir oft das Spiel "Punkte verbinden". Wir haben uns gedach
 | US-№ | Verbindlichkeit | Typ  | Beschreibung                       |
 | ---- | --------------- | ---- | ---------------------------------- |
 | 1    |                 |      | Als ein 🤷‍♂️ möchte ich 🤷‍♂️, damit 🤷‍♂️ |
+| 2  | Funktionalität | muss | Als Benutzer möchte ich Linien verbinden können, damit ich sehe, welche Plätze bereits besetzt sind. |
+| 3  | Qualität | muss | Als Benutzer möchte ich, dass die Linien in unterschiedlichen Farben angezeigt werden, damit die die Verwirrung zu vermeiden kann. |
+| 4  | Funktionalität | muss | Als Benutzer möchte ich, dass das Spiel automatisch neue Verbindungspunkte an verschiedenen Orten anzeigt, damit ich nicht immer dieselben Punkte verbinden muss. |
+| 5  | Funktionalität | muss | Als Benutzer möchte ich, dass es einen Button gibt, um das Spiel neustarten zu können. |
+| 6  | Funktionalität| muss | Als Benutzer möchte ich, dass das Spiel sich an die Bildschirmgrösse anpasst, damit ich es in einem kleineren oder grösseren Fenster spielen kann. |
 | ...  |                 |      |                                    |
+| ...  |                 |      |                                    |
+| ...  |                 |      |                                    |
+
 
 ✍️ Jede User Story hat eine ganzzahlige Nummer (1, 2, 3 etc.), eine Verbindlichkeit (Muss oder Kann?), und einen Typ (Funktional, Qualität, Rand). Die User Story selber hat folgende Form: *Als ein 🤷‍♂️ möchte ich 🤷‍♂️, damit 🤷‍♂️*.
 

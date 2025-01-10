@@ -41,6 +41,9 @@ Normalerweise spielen wir oft das Spiel "Punkte verbinden". Wir haben uns gedach
 ### 1.4 Diagramme
 
 ✍️Fügen Sie hier ein Use Case-Diagramm mit mindestens 10 Anwendungsfällen ein; und einen PAP.
+![Bild](https://github.com/user-attachments/assets/6f87a13f-9aaa-407a-abb6-b49fe6eabc81)
+
+
 
 ## 2 Planen
 
@@ -48,6 +51,25 @@ Normalerweise spielen wir oft das Spiel "Punkte verbinden". Wir haben uns gedach
 | ---- | ----- | --------- | ------------ | ------------- |
 | 1.A  |       |           |              |               |
 | ...  |       |           |              |               |
+| ...  |       |           |              |               |
+| ...  |       |           |              |               |
+| ...  |       |           |              |               |
+| ...  |       |           |              |               |
+| ...  |       |           |              |               |
+| ...  |       |           |              |               |
+| ...  |       |           |              |               |
+| ...  |       |           |              |               |
+| ...  |       |           |              |               |
+| ...  |       |           |              |               |
+| ...  |       |           |              |               |
+| ...  |       |           |              |               |
+| ...  |       |           |              |               |
+| ...  |       |           |              |               |
+| ...  |       |           |              |               |
+
+| ...  |       |           |              |               |
+| ...  |       |           |              |               |
+| ...  | 07.03.2025 |           |              |               |
 
 Total: 
 

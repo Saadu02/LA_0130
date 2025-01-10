@@ -15,8 +15,10 @@
 ### 1.1 Ihr Projekt
 
 ✍️ Beschreiben Sie Ihr Projekt in einem griffigen Satz.
+Ein Spiel, in dem man ein vorbestimmtes Grid hat und darin Punkte verbinden muss. Es hat immer nur zwei Punkte pro Farbe und auf einem Feld darf immer nur eine Farbe sein.
 
 ✍️ Erklären Sie genauer in 50 bis 100 Wörtern, was genau Sie in diesem Projekt erreichen möchten, und was Sie dabei zu lernen hoffen.
+Normalerweise spielen wir oft das Spiel "Punkte verbinden". Wir haben uns gedacht, warum wir es nicht selbst entwickeln könnten, da es für uns neu ist, so etwas zu programmieren. Unser Ziel ist es zunächst, das Spiel funktionsfähig zu machen, sodass Benutzer Punkte verbinden können. Je nach zeitlicher Verfügbarkeit werden wir weitere Funktionen entwickeln, um das Spiel interessanter und unterhaltsamer zu gestalten. Mit diesem Projekt möchten wir unsere Kenntnisse in der Programmiersprache C# anwenden und uns intensiver mit WinForms auseinandersetzen.
 
 ### 1.2 User Stories
 

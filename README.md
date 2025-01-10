@@ -53,9 +53,6 @@ Normalerweise spielen wir oft das Spiel "Punkte verbinden". Wir haben uns gedach
 <img src="https://github.com/user-attachments/assets/6f87a13f-9aaa-407a-abb6-b49fe6eabc81" alt="Bild" width="600" />
 
 
-
-
-
 ## 2 Planen
 
 | AP-№ | Frist | Zuständig | Beschreibung | geplante Zeit |
@@ -112,15 +109,3 @@ Total:
 
 ✍️ Vergessen Sie nicht, ein Fazit hinzuzufügen, welches das Test-Ergebnis einordnet.
 
-### 5.2 Exploratives Testen
-
-| BR-№ | Ausgangslage | Eingabe | Erwartete Ausgabe | Tatsächliche Ausgabe |
-| ---- | ------------ | ------- | ----------------- | -------------------- |
-| I    |              |         |                   |                      |
-| ...  |              |         |                   |                      |
-
-✍️ Verwenden Sie römische Ziffern für Ihre Bug Reports, also I, II, III, IV etc.
-
-## 6 Auswerten
-
-✍️ Fügen Sie hier eine Verknüpfung zu Ihrem Lern-Bericht ein.

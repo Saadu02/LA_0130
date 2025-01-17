@@ -5,7 +5,7 @@ LA_0130 von Nicola Karrer und Sathana Suganthasri
 | Datum | Version | Zusammenfassung                                              |
 | ----- | ------- | ------------------------------------------------------------ |
 | 10.01.25 | 0.0.1   | Projektantrag und Dokumentation erstellt |
-| 17.01.25 | 0.0.2   | X |
+| 17.01.25 | 0.0.2   | Programm erstellt und Raster so wie Punkte implementiert |
 | 24.01.25 | 0.0.3   | X |
 
 ## 1 Informieren

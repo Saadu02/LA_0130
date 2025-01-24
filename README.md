@@ -6,7 +6,7 @@ LA_0130 von Nicola Karrer und Sathana Suganthasri
 | ----- | ------- | ------------------------------------------------------------ |
 | 10.01.25 | 0.0.1   | Projektantrag und Dokumentation erstellt |
 | 17.01.25 | 0.0.2   | Programm erstellt und Raster so wie Punkte implementiert |
-| 24.01.25 | 0.0.3   | X |
+| 24.01.25 | 0.1.0   | Punkte mit Linien verbinden |
 
 ## 1 Informieren
 
@@ -88,8 +88,9 @@ Normalerweise spielen wir oft das Spiel "Flow Free". Wir haben uns gedacht, dass
 | 1.A  | 17.01.25 | Alle | 30min | 10min |
 | 1.B  | 17.01.25 | Alle | 60min | 80min |
 | 3.A  | 17.01.25 | Alle | 90min | 90min |
-| 2.A  | |  |  |  |
-| 4.A  | |  |  |  |
+| 3.A  | 24.01.25 | Alle | 90min | 45min |
+| 4.A  | 24.01.25 | Nicola | 180min | 135min |
+| 2.A  | 24.01.25 | Sathana | 180min | 135min |
 | 5.A  | |  |  |  |
 | 6.A  | |  |  |  |
 | 7.A  | |  |  |  |

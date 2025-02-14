@@ -80,6 +80,8 @@ Normalerweise spielen wir oft das Spiel "Flow Free". Wir haben uns gedacht, dass
 
 10.01. Wir haben uns dazu entschieden, das Programm auf VS in C# zu machen und dabei Winforms zu benutzen.
 
+14.02.2025: Die Pakete Nummer 5.A und 6.A müssen wir um eine Woche verschieben, da wir sehr lange gebraucht haben, um den Konflikt bei der Verbindung von Horizontal-/Vertikal- und Diagonal-Linien zu lösen. Zusätzlich hat es auch länger gedauert, bis wir nur noch mögliche, logische Verbindungsmöglichkeiten gewährleisten konnten.
+
 ## 4 Realisieren
 
 | AP-№ | Datum | Zuständig | geplante Zeit | tatsächliche Zeit |
@@ -91,7 +93,7 @@ Normalerweise spielen wir oft das Spiel "Flow Free". Wir haben uns gedacht, dass
 | 3.A  | 24.01.25 | Alle | 90min | 45min |
 | 4.A  | 24.01.25 | Nicola | 180min | 135min |
 | 2.A  | 24.01.25 | Sathana | 180min | 135min |
-| 5.A  | |  |  |  |
+| 5.A  |  |  |  |  |
 | 6.A  | |  |  |  |
 | 7.A  | |  |  |  |
 | 8.A  | |  |  |  |

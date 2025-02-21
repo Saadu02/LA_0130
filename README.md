@@ -6,7 +6,9 @@ LA_0130 von Nicola Karrer und Sathana Suganthasri
 | ----- | ------- | ------------------------------------------------------------ |
 | 10.01.25 | 0.0.1   | Projektantrag und Dokumentation erstellt |
 | 17.01.25 | 0.0.2   | Programm erstellt und Raster so wie Punkte implementiert |
-| 24.01.25 | 0.1.0   | Punkte mit Linien verbinden |
+| 24.01.25 | 0.1.0   | Punkte mit Linie verbinden |
+| 14.02.25 | 0.1.1   | Keine diagonalen Linien-Verbindungen und unmögliche Generierungen verhindert |
+| 21.02.25 | 0.1.2   | Linien-Verbindungen mit korrekter Farbe über andere Felder und nur noch Generierungen mit einer Lösungsmöglichkeit |
 
 ## 1 Informieren
 
@@ -26,8 +28,6 @@ Normalerweise spielen wir oft das Spiel "Flow Free". Wir haben uns gedacht, dass
 | 4  | Funktionalität | Als Benutzer möchte ich, dass die Linien unterschiedliche Farbe haben, damit ich weiss, welche Punkte ich verbinden muss |
 | 5  | Funktionalität | Als Benutzer möchte ich, dass es einen Knopf gibt, um das Spiel neustarten zu können |
 | 6  | Qualität | Als Benutzer möchte ich, dass es genau eine Möglichkeit gibt das Spiel zu lösen |
-| 7  | Qualität | Als Benutzer möchte ich, dass ich die Bildschirmgrösse anpassen kann, damit ich es in einem kleineren oder grösseren Fenster spielen kann |
-| 8  | Qualität | Als Benutzer möchte ich, dass das Design benutzerfreundlich ist. |
 
 
 ### 1.3 Testfälle
@@ -38,11 +38,10 @@ Normalerweise spielen wir oft das Spiel "Flow Free". Wir haben uns gedacht, dass
 | 1.2  | Menu geöffnet | Spiel starten | Raster wird generiert |
 | 2.1  | Spiel geschafft | Neues Spiel | Weiteres neues Spiel wird generiert |
 | 3.1  | Spiel gestartet | Verbinde zwei Punkte | Linie wird gezogen |
+| 3.2  | Spiel gestartet | Verbinde zwei Punkte | Keine falschen Verbindungsmöglichkeiten |
 | 4.1  | Menu geöffnet | Spiel starten | Punkte werden in verschiedenen Farben angezeigt |
 | 5.1  | Spiel gestartet | Spiel geschafft | Neustart Knopf wird angezeigt |
 | 6.1  | Menu geöffnet | Spiel starten | 1 Möglichkeit das Spiel zu lösen |
-| 7.1  | Spiel gestartet | Fenster anpassen | Raster wird mit angepasst |
-| 8.1  | Proframm offen | Programm starten | Funktionsweise klar ohne fremde Hilfe |
 
 ### 1.4 Diagramme
 
@@ -64,23 +63,23 @@ Normalerweise spielen wir oft das Spiel "Flow Free". Wir haben uns gedacht, dass
 | 1.A  | 17.01.2025 | Alle | Automatisch ein Spiel erstellen | 30min |
 | 1.B  | 17.01.2025 | Alle | Raster erstellen | 60min |
 | 3.A  | 17.01.2025 | Alle | Linien verbinden | 90min |
-| 2.A  | 24.01.2025 | Sathana | Neue verbindungsmöglichkeiten | 180min |
-| 4.A  | 24.01.2025 | Nicola | Unterschiedliche Farben für Linien | 180min |
-| 5.A  | 14.02.2025 | Sathana | Neustart-Knopf | 180min |
-| 6.A  | 14.02.2025 | Nicola | Nur eine Möglichkeit | 180min |
-| 7.A  | 21.02.2025 | Sathana | Bildschirmgrösse anpassung | 90min |
-| 8.A  | 21.02.2025 | Nicola  | Design | 90min |
-| X.X  | 21.02.2025 | Sathana | XX | 90min|
-| X.X  | 21.02.2025 | Nicola | XX | 90min|
-| X.X  | 28.02.2025 | Beide | XX | 180min|
-| X.X  | 07.03.2025 | Beide | XX | 180min|
+| 3.A  | 24.01.2025 | Sathana | Linienverbindungslogik | 180min |
+| 4.A  | 24.01.2025 | Nicola | Linien werden in verschiedenen Farben angezeigt | 180min |
+| 3.B  | 14.02.2025 | Sathana | Keine falschen Verbindungsmöglichkeiten | 180min |
+| 6.A  | 14.02.2025 | Nicola | Keine unmöglichen Generierungen | 180min |
+| 3.B  | 21.02.2025 | Sathana | Keine doppelten Verbindungsmöglichkeiten | 180min |
+| 6.A  | 21.02.2025 | Nicola | Generierungen mit nur 1 Lösungsmöglichkeit | 180min |
+| 3.B  | 28.02.2025 | Sathana | Restliche Verbindugnsfehler | 90min |
+| 2.A  | 28.02.2025 | Nicola | Neustartknopf | 90min |
+| 0.B  | 28.02.2025 | Alle | Testfälle | 90min|
+| 0.C  | 07.03.2025 | Alle | Dokumentation | 180min|
 
 
 ## 3 Entscheiden
 
 10.01. Wir haben uns dazu entschieden, das Programm auf VS in C# zu machen und dabei Winforms zu benutzen.
 
-14.02.2025: Die Pakete Nummer 5.A und 6.A müssen wir um eine Woche verschieben, da wir sehr lange gebraucht haben, um den Konflikt bei der Verbindung von Horizontal-/Vertikal- und Diagonal-Linien zu lösen. Zusätzlich hat es auch länger gedauert, bis wir nur noch mögliche, logische Verbindungsmöglichkeiten gewährleisten konnten.
+14.02.2025: Die Pakete 3.B und 6.A mussten wir eine Woche später erneut planen, da wir die gesamte Logik noch nicht ganz richtig implementieren konnten. Zum einen kann man die Linien immer noch über Punkte und andere Farben ziehen und auf der anderen Seite generiert es immer noch Spiele mit falschen/mehreren Lösungsmöglichkeiten.
 
 ## 4 Realisieren
 
@@ -91,12 +90,12 @@ Normalerweise spielen wir oft das Spiel "Flow Free". Wir haben uns gedacht, dass
 | 1.B  | 17.01.25 | Alle | 60min | 80min |
 | 3.A  | 17.01.25 | Alle | 90min | 90min |
 | 3.A  | 24.01.25 | Alle | 90min | 45min |
-| 4.A  | 24.01.25 | Nicola | 180min | 135min |
 | 2.A  | 24.01.25 | Sathana | 180min | 135min |
-| 5.A  |  |  |  |  |
-| 6.A  | |  |  |  |
-| 7.A  | |  |  |  |
-| 8.A  | |  |  |  |
+| 4.A  | 24.01.25 | Nicola | 180min | 135min |
+| 5.A  | 14.02.25 | Sathana | 180min | 180min |
+| 6.A  | 14.02.25 | Nicola | 180min | 180min |
+| 5.A  | 21.02.25 | Sathana | 180min | 180min |
+| 6.A  | 21.02.25 | Nicola | 180min | 180min |
 
 ## 5 Kontrollieren
 
@@ -104,12 +103,12 @@ Normalerweise spielen wir oft das Spiel "Flow Free". Wir haben uns gedacht, dass
 
 | TC-№ | Datum | Resultat | Tester |
 | ---- | ----- | -------- | ------ |
-| 1.1  | 07.03.2025 |  | Sathana Suganthasri |
-| 1.2  | 07.03.2025 |  | Sathana Suganthasri |
-| 3.1  | 07.03.2025 |  | Nicola Karrer |
-| 2.1  | 07.03.2025 |  | Sathana Suganthasri |
-| 4.1  | 07.03.2025 |  | Nicola Karrer|
-| 5.1  | 07.03.2025 |  | Sathana Suganthasri |
-| 6.1  | 07.03.2025 |  | Nicola Karrer |
-| 7.1  | 07.03.2025 |  | Sathana Suganthasri |
-| 8.1  | 07.03.2025 |  | Nicola Karrer |
+| 1.1  | 28.02.2025 |  | Sathana Suganthasri |
+| 1.2  | 28.02.2025 |  | Sathana Suganthasri |
+| 3.1  | 28.02.2025 |  | Nicola Karrer |
+| 2.1  | 28.02.2025 |  | Sathana Suganthasri |
+| 4.1  | 28.02.2025 |  | Nicola Karrer|
+| 5.1  | 28.02.2025 |  | Sathana Suganthasri |
+| 6.1  | 28.02.2025 |  | Nicola Karrer |
+| 7.1  | 28.02.2025 |  | Sathana Suganthasri |
+| 8.1  | 28.02.2025 |  | Nicola Karrer |

@@ -45,11 +45,11 @@ Normalerweise spielen wir oft das Spiel "Flow Free". Wir haben uns gedacht, dass
 
 ### 1.4 Diagramme
 
-<img src="https://github.com/user-attachments/assets/6f87a13f-9aaa-407a-abb6-b49fe6eabc81" alt="Bild" width="500" />
+<img src="https://github.com/user-attachments/assets/6f87a13f-9aaa-407a-abb6-b49fe6eabc81" alt="Skizze Produkt" width="500" />
 
 10.01
 
-![image](https://github.com/user-attachments/assets/d13243e6-cbaa-4459-b30a-2d78b9e5ed25)
+<img src="https://github.com/user-attachments/assets/d13243e6-cbaa-4459-b30a-2d78b9e5ed25" alt="Skizze Meilenstein" width = "1000" />
 
 17.01
 

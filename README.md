@@ -36,7 +36,11 @@ Normalerweise spielen wir oft das Spiel "Flow Free". Wir haben uns gedacht, dass
 | ---- | ------------ | ------- | ----------------- |
 | 1.1  | Programm offen | Programm starten | Menu öffnet sich|
 | 1.2  | Menu geöffnet | Spiel starten | Raster wird generiert |
-| 2.1  | Spiel geschafft | Neues Spiel | Weiteres neues Spiel wird generiert |
+| 2.1  | Spiel geschafft | Neustart | Möchtest du nur die Linien zurücksetzen?  |
+| 2.2  | Möchtest du nur die Linien zurücksetzen? | Ja | Die Linien werden zurückgesetzt |
+| 2.3  | Möchtest du nur die Linien zurücksetzen? | Nein | Möchtest du das gesamte Spiel neu starten? |
+| 2.4  | Möchtest du das gesamte Spiel neu starten? | Ja | Das gesammte Spiel wird neugestartet. |
+| 2.5 | Möchtest du das gesamte Spiel neu starten? | Nein | Das Spiel bleibt so. |
 | 3.1  | Spiel gestartet | Verbinde zwei Punkte | Linie wird gezogen |
 | 3.2  | Spiel gestartet | Verbinde zwei Punkte | Keine falschen Verbindungsmöglichkeiten |
 | 4.1  | Menu geöffnet | Spiel starten | Punkte werden in verschiedenen Farben angezeigt |
@@ -103,12 +107,14 @@ Normalerweise spielen wir oft das Spiel "Flow Free". Wir haben uns gedacht, dass
 
 | TC-№ | Datum | Resultat | Tester |
 | ---- | ----- | -------- | ------ |
-| 1.1  | 28.02.2025 |  | Sathana Suganthasri |
-| 1.2  | 28.02.2025 |  | Sathana Suganthasri |
-| 3.1  | 28.02.2025 |  | Nicola Karrer |
-| 2.1  | 28.02.2025 |  | Sathana Suganthasri |
-| 4.1  | 28.02.2025 |  | Nicola Karrer|
-| 5.1  | 28.02.2025 |  | Sathana Suganthasri |
-| 6.1  | 28.02.2025 |  | Nicola Karrer |
-| 7.1  | 28.02.2025 |  | Sathana Suganthasri |
-| 8.1  | 28.02.2025 |  | Nicola Karrer |
+| 1.1  | 28.02.2025 | OK | Sathana Suganthasri |
+| 1.2  | 28.02.2025 | OK | Sathana Suganthasri |
+| 3.1  | 28.02.2025 | OK | Nicola Karrer |
+| 2.1  | 28.02.2025 | OK | Sathana Suganthasri |
+| 4.1  | 28.02.2025 | OK | Nicola Karrer|
+| 5.1  | 28.02.2025 | OK | Sathana Suganthasri |
+| 6.1  | 28.02.2025 | OK | Nicola Karrer |
+| 7.1  | 28.02.2025 | OK | Sathana Suganthasri |
+| 8.1  | 28.02.2025 | OK | Nicola Karrer |
+
+Das Programm wurde auf einem HP Windows 11 Pro und HP Windows 11 Enterprise getestet und funktioniert alles. Ausser dass die Linien hinter einer anderen Linie hindurchgehen, ist das Spiel immer noch spielbar.

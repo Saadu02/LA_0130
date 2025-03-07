@@ -9,6 +9,8 @@ LA_0130 von Nicola Karrer und Sathana Suganthasri
 | 24.01.25 | 0.1.0   | Punkte mit Linie verbinden |
 | 14.02.25 | 0.1.1   | Keine diagonalen Linien-Verbindungen und unmögliche Generierungen verhindert |
 | 21.02.25 | 0.1.2   | Linien-Verbindungen mit korrekter Farbe über andere Felder und nur noch Generierungen mit einer Lösungsmöglichkeit |
+| 28.02.25 | 1.0.0   | Fast alle Fehler behoben und Dokumentation fertig erstellt |
+| 07.03.25 | 1.0.0   | Testfälle durchgeführt und Portfolio erstellt |
 
 ## 1 Informieren
 
